@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    border: solid 2px red;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: #ddd;
+    border: solid 1px green;
+    width: 60px;
+    height: 60px;
+    flex-basis: 50px;
+}
+
+#item1{
+   flex-grow: 1;
+}
