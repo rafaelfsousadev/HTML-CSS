@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+[teste]{
+    color: red;
+}
+[for]{
+    color: blue;
+}
+[type="button"]{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 3px;
+    width: 100px;
+    box-shadow: 2px 2px 2px black;
+}
+[type="button"]:hover{
+    background-color: white;
+    color: red;
+    transition: 0.7s;
+}
